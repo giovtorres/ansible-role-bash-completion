@@ -7,6 +7,7 @@ docker:
     - name: ansible-role-bash-completion-fedora25
       image: fedora
       image_version: 25
+      command: /bin/bash
     - name: ansible-role-bash-completion-debian9
       image: debian
       image_version: 9
