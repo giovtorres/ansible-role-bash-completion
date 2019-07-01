@@ -2,4 +2,4 @@
 - name: Install bash-completion
   package:
     name: bash-completion
-    state: installed
+    state: present

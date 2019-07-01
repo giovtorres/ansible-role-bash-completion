@@ -3,10 +3,8 @@ sudo: required
 language: python
 services:
   - docker
-before_install:
-  - pip install ansible
 install:
-  - pip install molecule docker testinfra>=1.6.0 requests==2.17.0
+  - pip install molecule[docker] testinfra>=3.0.0
 script:
   - molecule test
 notifications:
