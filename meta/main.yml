@@ -7,7 +7,7 @@ galaxy_info:
   platforms:
     - name: Fedora
       versions:
-        - 25
+        - 29
     - name: EL
       versions:
         - 6
@@ -16,7 +16,6 @@ galaxy_info:
       versions:
         - trusty
         - xenial
-        - bionic
     - name: Debian
       versions:
         - jessie
